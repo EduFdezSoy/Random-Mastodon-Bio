@@ -38,6 +38,5 @@ $res = $api->accounts()->updateCredentials(
   $locked           = $accData->locked(),
   $sourcePrivacy    = $accData->source()->privacy(),
   $sourceSensitive  = $accData->source()->sensitive(),
-  $fieldAttributes  = "",
+  $fieldAttributes  = ""
 );
-var_dump($res);
