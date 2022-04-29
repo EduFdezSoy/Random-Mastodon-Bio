@@ -25,7 +25,7 @@ $biosFile = 'bios';
 
 so we need to add in the file `bios` as many lines as bios we want. One line, one bio, no exception.  
 
-Take in mind the current limit is at 160 characters.
+Take in mind the current limit is at 500 characters.
 
 ## Something more
 Um, oh, do whatever you like with this, I really don't care. *MIT License*.  
