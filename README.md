@@ -27,6 +27,9 @@ so we need to add in the file `bios` as many lines as bios we want. One line, on
 
 Take in mind the current limit is at 500 characters.
 
+## Docker
+If you prefer docker you can use the env vars `INSTANCE`, `ACCESS_TOKEN` and `BIOS_FILE`.
+
 ## Something more
 Um, oh, do whatever you like with this, I really don't care. *MIT License*.  
 
