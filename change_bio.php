@@ -6,11 +6,11 @@ use Fundevogel\Mastodon\Api;
 
 
 // mastodon auth things
-const INSTANCE = 'mastodon.social';
-const ACCESS_TOKEN = 'your_access_token_here';
+const INSTANCE = getenv("INSTANCE") ?? 'mastodon.social';
+const ACCESS_TOKEN = getenv("ACCESS_TOKEN") ?? 'your_access_token_here';
 
 // where are the sentences?
-$biosFile = 'bios';
+$biosFile = getenv("BIOS_FILE") ?? 'bios';
 
 // load the file and pick a random one
 $file = file($biosFile);
